@@ -1,0 +1,3 @@
+The internal package contains the core business logic, with subdrectories for the domain model, ports(interfaces that allow the application to interact with external system), and services.
+The adapters package contains the infrastructure code that adapts the application to external systems. In this example, there are two subdrectories, handler for HTTP server handlers, and repository for database access code.
+The cmd directory contains the main entry point for the application, and the go.mod and go.sum files are used to manage dependencies
